@@ -24,7 +24,7 @@
 				margin-top: 1px;
 			}
 			.header{
-				width: 1560px;
+				width: 1200px;
 				height: 30px;
 				margin: 0 auto;
 			}
@@ -33,7 +33,6 @@
 				font-family: "微软雅黑";
 				color: rgb(51,51,51);
 				line-height: 30px;
-				margin-left: 9px;
 			}
 			.header a{
 				font-size: 11.23px;
@@ -41,14 +40,14 @@
 				color: rgb(51,51,51);
 			}
 			.header p{
-				text-indent: 189px;
 				display: inline-block;
 			}
 			.right{
-				margin-left: 510px;
+				float: right;
 			}
-			#qq{
-				margin-bottom: -2px;
+
+			.h1{
+				float: left;
 			}
 
 		/*导航*/
@@ -373,7 +372,7 @@
 			}
 			.last{
 				position: relative;
-				width: 1560px;
+				width: 1200px;
 				height: 280px;
 			}
 			.last  a{
@@ -386,50 +385,111 @@
 				top: 21px;
 			}
 			.ul-1{
-				left: 192px;
+				left: 100px;
 			}
 			.ul-2{
-				left:485px; 
+				left:200px; 
 			}
 			.ul-3{
-				left: 755px;
+				left: 400px;
 			}
 			.ul-4{
-				left:1022px; 
+				left:600px; 
 			}
 			.ul-5{
-				left: 1300px;
+				left: 800px;
 			}
 			.last ul>li{
 				margin-bottom: 20px;
 			}
 
 		/*下部*/
-			.last-down-wrap{
-				width: 100%;
-				border-width: 1px 0px 0px 0px;
-				border-color: rgb(69,69,69);
-				border-style: solid;
-				position: absolute;
-				top: 190px;
-			}
-			.last-down{
-				position: absolute;
-				left: 520px;
-			}
-			.last-down p{
-				color: rgb(109,109,109);
-				margin-top: 15px;
-				margin-bottom: 10px;
-				font-size: 14px;
-				font-family: "微软雅黑";
-			}
-			.last-down p>a{
-				color: rgb(109,109,109);
-				margin: 0px 8px 0px 8px;
-				font-size: 14px;
-				font-family: "微软雅黑";
-			}
+			
+ 		.last-wrap{
+            width: 100%;
+            height: 250px;
+            background-color: #2e2e2e;
+        }
+        .last{
+            width: 1200px;
+            height: 250px;
+            margin: 0px auto;
+        }
+        .last-up{
+            width: 1200px;
+            height: 150px;
+
+        }
+        .last-up ul>li>a{
+            color: #fff;
+            font-family: "微软雅黑";
+            font-weight: lighter;
+        }
+        .ul-1{
+            height: 110px;
+            width: 65px;
+            float: left;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+        .ul-2{
+            height: 110px;
+            width: 85px;
+            float: left;
+            margin-left: 210px;
+            margin-top: 20px;
+        }
+        .ul-3{
+            height: 110px;
+            width: 70px;
+            float: left;
+            margin-left: 200px;
+            margin-top: 20px;
+        }
+        .ul-4{
+            height: 110px;
+            width: 85px;
+            float: left;
+            margin-left: 210px;
+            margin-top: 20px;
+        }
+        .ul-5{
+            height: 110px;
+            width: 85px;
+            float: left;
+            margin-left: 160px;
+            margin-top: 20px;
+        }
+        .last-up ul>li{
+            font-size: 14px;
+        }
+        .f1 ul>li{
+            margin-bottom: 15px;
+        }
+        .f2{
+            width: 1200px;
+            height: 100px;
+            border-top:1px solid #454545;
+            font-size: 14px;
+            font-family: "微软雅黑";
+            font-weight: lighter;
+            color: #a4a4a4;
+        }
+        .p2>a{
+            font-size: 14px;
+            font-family: "微软雅黑";
+            font-weight: lighter;
+            color: #a4a4a4;
+        }
+        .p2{
+            margin-left: 328px;
+            margin-top: 28px;
+        }
+        .p3{
+            margin-left: 323px;
+            margin-top: 20px;
+        }
+
 		</style>
 	</head>
 	<body>
@@ -437,7 +497,7 @@
 	<!--头部-->
 		<div class="header-wrap">
 			<div class="header">
-				<p>
+				<p class="h1">
 					<a>我的收藏</a>
 					<span>E族之家手机版</span>
 					<span><img src="images/QQ.png" alt="QQ" id="qq" /></span>
@@ -572,21 +632,12 @@
 					</ul>
 				</div>
 			<!--下部-->
-				<div class="last-down-wrap">
-					<div class="last-down">
-						<p><a href="#">E族生活</a>|
-							<a href="#">居家维修保养</a>|
-							<a href="#">住宿优惠信息</a>|
-							<a href="#">出行接送</a>|
-							<a href="#">E族活动</a>|
-							<a href="#">E族爱心</a>|
-							<a href="#">积分商城</a>
-						</p>
-						<p>
-							©2017-2018 E族之家 版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号
-						</p>
-					</div>
+				
+				<div class="f2">
+				                <p class="p2"><a href="#">E族生活</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">居家维修保养</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">住宿优惠信息</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">出行接送</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">E族活动</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">E族爱心</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#">积分商城</a></p>
+				                <p class="p3">©2017-2018&nbsp;  E族之家&nbsp;  版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号 </p>
 				</div>
+
 			</div>
 		</div>
 	</div>
